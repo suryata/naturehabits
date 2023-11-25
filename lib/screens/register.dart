@@ -74,11 +74,10 @@ class _RegistrationPageState extends State<RegistrationPage> {
                 }
 
                 final response = await request.post(
-                    "https://muhammad-rafli22-tugas.pbp.cs.ui.ac.id/auth/register/",
-                    {
-                      'username': username,
-                      'password': password,
-                    });
+                    "https://i-made213-tugas.pbp.cs.ui.ac.id/auth/register/", {
+                  'username': username,
+                  'password': password,
+                });
 
                 bool status = response['status'];
 
